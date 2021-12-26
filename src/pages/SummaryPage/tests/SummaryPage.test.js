@@ -1,5 +1,5 @@
-import SummayPage from '../SummaryPage';
 import { render, screen } from '@testing-library/react';
+import SummayPage from '../SummaryPage';
 
 test('checkbox and button', () => {
   render(<SummayPage />);
